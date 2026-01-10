@@ -1,12 +1,11 @@
-# Python
+# Virtual Environment
 venv/
+.venv/
+env/
+
+# Local Database (ChromaDB)
+chroma_db/
+
+# Python caches
 __pycache__/
 *.pyc
-
-# Data & Databases
-chroma_db/
-*.pdf
-
-# Environment
-.env
-.DS_Store
