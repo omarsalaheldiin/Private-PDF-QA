@@ -13,6 +13,25 @@ A privacy-focused Retrieval-Augmented Generation (RAG) system that allows you to
 - **Vector DB:** ChromaDB
 - **Embeddings:** Hugging Face (all-MiniLM-L6-v2)
 
+
+## Why This Stack?
+
+### Llama 3 (Large Language Model)
+* **Privacy & Security:** By using **Llama 3** via **Ollama**, all data processing remains local. Sensitive PDF content never leaves your machine.
+* **State-of-the-Art Performance:** Llama 3 provides high-reasoning capabilities that rival proprietary models, ensuring accurate, context-aware answers and high-quality text generation.
+
+### ChromaDB (Vector Database)
+* **Speed & Efficiency:** **ChromaDB** is optimized for high-speed similarity searches. It allows the system to find relevant text chunks in milliseconds, even as the document library grows.
+* **Persistence:** It stores embeddings locally in the `chroma_db/` directory, meaning you only need to process and index your PDF once. Subsequent queries are near-instant.
+
+
+
+## Demo
+<div align="center">
+  <img src="assets/demo.png" width="800">
+</div>
+
+
 ## System Requirements
 | Component | Minimum | Recommended |
 | :--- | :--- | :--- |
